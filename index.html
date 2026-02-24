@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PXLCAM</title>
+  <meta name="description" content="A lo-fi retro camera app that captures pixelated moments with a climate countdown. Every shot is a reminder of a world worth protecting.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    h1, h2, .btn {
+      font-family: 'Press Start 2P', monospace;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 0 2rem;
+      border-bottom: 2px solid #333;
+    }
+
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+    }
+
+    section {
+      padding: 2.5rem 0;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    h2 {
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #e0e0e0;
+      margin-bottom: 1rem;
+      max-width: 600px;
+    }
+
+    .highlight {
+      color: #ff0;
+    }
+
+    .gallery {
+      columns: 3;
+      column-gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 0.75rem;
+      break-inside: avoid;
+    }
+
+    .signup {
+      text-align: center;
+      padding: 3rem 0;
+    }
+
+    .signup p {
+      margin: 0 auto 1.5rem;
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      font-size: 0.625rem;
+      color: #000;
+      background: #fff;
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .btn:hover {
+      background: #ff0;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 1px solid #1a1a1a;
+    }
+
+    footer p {
+      font-size: 0.75rem;
+      color: #666;
+      margin: 0 auto;
+    }
+
+    footer a {
+      color: #888;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 1.5rem; }
+      .gallery { columns: 2; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>PXLCAM</h1>
+    </header>
+
+    <section class="concept">
+      <h2>// CONCEPT</h2>
+      <p>
+        PXLCAM captures moments in deliberate low resolution with retro effects.
+        Smaller files, smaller footprint — digital data takes energy to store and share.
+      </p>
+      <p>
+        Every shot is stamped with a countdown to the climate deadline.
+        A camera is a tool for noticing the present — a reminder of the beauty of the world as it is now,
+        <span class="highlight">worth capturing, worth protecting</span>.
+      </p>
+    </section>
+
+    <section>
+      <h2>// GALLERY</h2>
+      <p>Photos captured with PXLCAM.</p>
+      <div class="gallery">
+        <img src="images/PXLCAM-Photos-2.jpg" alt="PXLCAM photo" loading="lazy">
+        <img src="images/PXLCAM-Photos-3.jpg" alt="PXLCAM photo" loading="lazy">
+        <img src="images/PXLCAM_IMG_3869.jpg" alt="PXLCAM photo" loading="lazy">
+        <img src="images/PXLCAM_IMG_6169.jpg" alt="PXLCAM photo" loading="lazy">
+        <img src="images/PXLCAM_Japan_Images_IMG_4598.jpg" alt="PXLCAM photo" loading="lazy">
+        <img src="images/PXLCAM_Slideshow_IMG_4335.jpg" alt="PXLCAM photo" loading="lazy">
+      </div>
+    </section>
+
+    <section class="signup">
+      <h2>// GET UPDATES</h2>
+      <p>Be the first to know when PXLCAM launches.</p>
+      <a href="https://forms.gle/xoRdDzynkNNacFVb9" class="btn">SIGN UP</a>
+    </section>
+
+    <footer>
+      <p>A project by <a href="https://portfolio.anna-zhang.com/">Anna Zhang</a></p>
+    </footer>
+  </div>
+</body>
+</html>
