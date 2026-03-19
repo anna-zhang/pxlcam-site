@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PXLCAM - Support</title>
+  <meta name="description" content="Get help with PXLCAM, find answers to frequently asked questions, or send feedback.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    h1, h2, .btn {
+      font-family: 'Press Start 2P', monospace;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 0 2rem;
+      border-bottom: 2px solid #333;
+    }
+
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    h1 a:hover {
+      color: #ff0;
+    }
+
+    section {
+      padding: 2.5rem 0;
+      border-bottom: 1px solid #1a1a1a;
+    }
+
+    h2 {
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #e0e0e0;
+      margin-bottom: 1rem;
+      max-width: 600px;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    a:hover {
+      color: #ff0;
+    }
+
+    .faq-item {
+      margin-bottom: 2rem;
+    }
+
+    .faq-item h3 {
+      font-size: 0.9rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .faq-item p {
+      margin-bottom: 0.5rem;
+    }
+
+    .faq-item p:last-child {
+      margin-bottom: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 1px solid #1a1a1a;
+    }
+
+    footer p {
+      font-size: 0.75rem;
+      color: #666;
+      margin: 0 auto;
+    }
+
+    footer a {
+      color: #888;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 1.5rem; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="/">PXLCAM</a></h1>
+    </header>
+
+    <section>
+      <h2>// SUPPORT</h2>
+      <p>
+        Need help? Have a suggestion or feedback? I'd love to hear from you – whether something's broken, something could be better, or you just want to share a thought.
+      </p>
+      <p>
+        Send me an <a href="mailto:pxlcam.app@gmail.com">email</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>// FAQs</h2>
+
+      <div class="faq-item">
+        <h3>What is PXLCAM?</h3>
+        <p>PXLCAM is a camera app that captures intentionally low-resolution, retro-style photos. Every photo is stamped with a countdown to the climate deadline – the time scientists estimate we have left to meaningfully act on climate change.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is PXLCAM, really?</h3>
+        <p>A camera app that produces genuinely smaller files. A daily visual reminder of the climate deadline. And a quiet experiment in going against the grain – every year, smartphone cameras get more megapixels, files get bigger, and AI upscaling pushes resolution even further. PXLCAM is a small pushback on the idea that more is always better.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Why are the photos low-resolution?</h3>
+        <p>Higher resolution means bigger files, which take more energy to store and share. PXLCAM shoots small by design. Smaller files, smaller footprint.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How much smaller are PXLCAM photos compared to normal smartphone photos?</h3>
+        <p>Significantly smaller. A typical smartphone photo today is several megabytes. A PXLCAM photo is around 150KB – a fraction of the size. That means less storage, less energy to transmit, and less server load every time you take and share a photo.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Why are there two timestamps on every photo?</h3>
+        <p>The first is the date and time you took the photo. The second is the <a href="https://climateclock.world/">Climate Clock</a>: a live countdown showing the time remaining to avoid the worst effects of climate change.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is the Climate Clock?</h3>
+        <p>The <a href="https://climateclock.world/">Climate Clock</a> is a live countdown showing how much time remains before the world exhausts its carbon budget – the total amount of CO₂ humanity can still emit while keeping global warming below 1.5°C, the threshold scientists have identified as critical for avoiding the most severe consequences of climate change.</p>
+        <p>It was built by scientists and artists to make that deadline visible and harder to ignore. PXLCAM uses the <a href="https://docs.climateclock.world/climate-clock-docs/climate-clock-api">Climate Clock API</a> to stamp that countdown onto every photo you take with the app.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Why embed a climate countdown into a camera app?</h3>
+        <p>A camera is a tool for noticing. The goal is to make the climate deadline feel less abstract and more personal, rather than a distant news story. Every photo becomes a small record of the world as it is now, and a reminder of why it's worth protecting.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How does this have anything to do with climate change?</h3>
+        <p>PXLCAM isn't here to solve climate change, and it doesn't claim to.</p>
+        <p>The crisis isn't driven by your camera roll. The dominant sources of global emissions trace back to fossil fuel combustion (for energy, transportation, manufacturing, and buildings), alongside industrial food systems and deforestation. Individual choices matter, but these are structural problems, shaped by infrastructure and policy.</p>
+        <p>What PXLCAM is really about is awareness. We interact with our phones dozens of times a day, rarely thinking about the digital infrastructure behind those interactions: the data centers, the energy, the footprint that feels invisible because it lives in "the cloud." PXLCAM is a small experiment in making that more visible.</p>
+        <p>If the countdown occasionally makes you think about time, about what you're photographing and why, about the world beyond the screen and why it's worth protecting – that's the intent.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is PXLCAM free?</h3>
+        <p>Yes, the app is free.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is PXLCAM available on Android?</h3>
+        <p>Not yet – PXLCAM is iOS only for now. <a href="https://forms.gle/xoRdDzynkNNacFVb9">Sign up</a> to hear when that changes.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Does PXLCAM collect my photos or data?</h3>
+        <p>No. Your photos stay on your device. PXLCAM does not upload, store, or have access to your images.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Does PXLCAM require an account?</h3>
+        <p>No account needed. Download and shoot.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What permissions does PXLCAM need?</h3>
+        <p>PXLCAM requires access to your camera to take photos, and to your photo library if you choose to save images to your camera roll.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>A project by <a href="https://portfolio.anna-zhang.com/">Anna Zhang</a></p>
+    </footer>
+  </div>
+</body>
+</html>
